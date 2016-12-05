@@ -363,7 +363,7 @@ public class ClientGUI extends JFrame implements ActionListener, KeyListener {
 			}
 			
 			tf.setText("");
-			label.setText("Enter your message below");
+			label.setText(username + " enter your message below");
 			connected = true;
 				
 			// disable login button

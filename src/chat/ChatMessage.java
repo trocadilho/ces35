@@ -15,6 +15,10 @@ public class ChatMessage implements Serializable {
 	// WHOISIN to receive the list of the users connected
 	// MESSAGE an ordinary message
 	// LOGOUT to disconnect from the Server
+	// LOGIN to connect to the Server
+	// MODIFYPASSWORD to change your current password
+	// CHECKPASSWORD to validate the password
+	// CHALLENGE to send a request for a duel in Pokémon Showdown
 	static final int WHOISIN = 0, MESSAGE = 1, LOGOUT = 2, LOGIN = 3, MODIFYPASSWORD = 4, CHECKPASSWORD = 5, CHALLENGE = 6;
 	private int type;
 	private String message;
